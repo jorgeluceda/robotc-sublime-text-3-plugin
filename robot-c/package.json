@@ -1,0 +1,25 @@
+{
+    "name": "robot-c",
+    "displayName": "Robot C",
+    "description": "Robot C Code Completions and Highlighting",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "robot-c",
+            "aliases": ["RobotC", "robot-c"],
+            "extensions": [".c"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "robot-c",
+            "scopeName": "source.c",
+            "path": "./syntaxes/robot-c.tmLanguage.json"
+        }]
+    }
+}
