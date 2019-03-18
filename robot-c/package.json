@@ -1,7 +1,7 @@
 {
     "name": "robot-c",
     "displayName": "Robot C",
-    "description": "Robot C Code Completions and Highlighting",
+    "description": "Syntax Highlighter for Robot C",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.32.0"
@@ -11,15 +11,15 @@
     ],
     "contributes": {
         "languages": [{
-            "id": "robot-c",
-            "aliases": ["RobotC", "robot-c"],
-            "extensions": [".c"],
+            "id": "robotc",
+            "aliases": ["Robot C", "robotc"],
+            "extensions": [".c .robotc"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
-            "language": "robot-c",
+            "language": "robotc",
             "scopeName": "source.c",
-            "path": "./syntaxes/robot-c.tmLanguage.json"
+            "path": "./syntaxes/robotc.tmLanguage.json"
         }]
     }
 }
