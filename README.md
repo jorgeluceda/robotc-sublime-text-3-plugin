@@ -11,7 +11,7 @@ Note: this cannot compile your code, you will need the RobotC ide for that.
 4. Copy the cloned & compiled robotc.sublime-package into the Installed Packages/ directory (found in .config/sublime-text-3/)
 5. Restart Sublime Text
 
-*Forked from: * https://github.com/jpearman/robotc-sublime-text-plugin (Sublime Text 2 Version)
+**Forked from:** https://github.com/jpearman/robotc-sublime-text-plugin (Sublime Text 2 Version)
 
 # Future Release Version Goals
 - Work on previously mentioned version goals from previous forker
